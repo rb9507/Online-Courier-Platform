@@ -6,10 +6,10 @@ function Header() {
         <header className="header-container">
             <h1 className="brand-name" onClick={() => navigate('/')} >-COURIER</h1>
             <ul className="navbar">
-                <li><a href="/services" >Services</a></li>
-                <li><a href="/about">About us</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/track">Track</a></li>
+                <li><Link to={'/services'}>Services</Link></li>
+                <li><Link to={'/about'}>About us</Link></li>
+                <li><Link to={'/contact'}>Contact</Link></li>
+                <li><Link to={'/track'}>Track</Link></li>
             </ul>
         </header>
     );
