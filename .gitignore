@@ -1,0 +1,4 @@
+# .gitignore
+doc/
+client/.evn
+server/.env

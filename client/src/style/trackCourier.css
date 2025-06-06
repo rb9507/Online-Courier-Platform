@@ -1,0 +1,57 @@
+.track-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.track-container h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.track-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.track-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.track-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.track-form button:hover {
+    background-color: #0056b3;
+}
+
+.courier-info {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.courier-info h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}

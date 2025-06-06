@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.header-container {
+    background-color: rgb(22, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    height: 70px;
+}
+
+.brand-name {
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.brand-name::before {
+    content: "E";
+    color: #007bff;
+    font-size: xx-large;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    transition: border 0.1s ease-in;
+    border-bottom: 0px solid #007bff;
+}
+
+.navbar a:hover {
+    border-bottom: 5px solid #007bff;
+}
